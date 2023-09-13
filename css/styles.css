@@ -7,17 +7,30 @@
 }
 html {
     font-size: 62.5%;
+    box-sizing: border-box;
 }
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
 
 body {
     font-size: 16px; /* 1rem = 10px*/
     font-family: 'Krub', sans-serif;
 }
-
-.titulo {
-    text-align: center;
+h1 {
     font-size: 3.8rem;
 }
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+h1,h2,h3{
+    text-align: center;
+}
+
 
 .titulo span {
     font-size: 2rem;
@@ -28,6 +41,25 @@ body {
     margin: 0 auto;
 }
 
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+}
+
+@media (min-width: 769px ){
+    .boton{
+        width: auto;
+    }
+}
 .nav-bg{
     background-color: var(--secundario);
 }
@@ -60,4 +92,23 @@ body {
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 45rem;
+    position: relative;
+}
+
+.contenido-hero{
+    position: absolute;
+    background-color: rgb( 0 0 0 / 70%);
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenido-hero h2,
+.contenido-hero p{
+    color: var(--blanco);
 }
