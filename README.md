@@ -5,7 +5,7 @@ Este es un proyecto de portafolio ficticio que muestra las habilidades y servici
 
 ## Vista Previa
 
-Puedes ver una vista previa en vivo de este portafolio en [este enlace](https://freelancer-yulyus-qaysar.netlify.app/).
+Puedes ver una vista previa en vivo de este portafolio en [este enlace](https://freelancer-cc.netlify.app).
 
 ## Tecnologías Utilizadas
 
